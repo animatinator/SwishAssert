@@ -16,12 +16,12 @@ public class Assert {
     }
 
     public static void That(Object object, Constraint constraint) {
-        That(object, constraint, "Fail");
+        That(object, constraint, "");
     }
 
     public static void That(Object object, Constraint constraint, String message) {
-        if (!constraint.satisfiedByObject(object)) {
-            throw new AssertionError(message);
+        if (!constraint.satisfiedBy(object)) {
+            throw new AssertionError(constraint.generateFailureMessage(message));
         }
     }
 }
