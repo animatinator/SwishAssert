@@ -12,4 +12,9 @@ public class EqualityConstraint implements Constraint<Object> {
     public boolean satisfiedBy(Object object) {
         return otherObject.equals(object);
     }
+
+    @Override
+    public String generateFailureMessage(String userMessage) {
+        throw new UnsupportedOperationException();
+    }
 }
