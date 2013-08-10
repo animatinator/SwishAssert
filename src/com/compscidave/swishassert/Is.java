@@ -1,5 +1,7 @@
 package com.compscidave.swishassert;
 
+import com.compscidave.swishassert.constraints.EqualityConstraint;
+
 /**
  * Created with IntelliJ IDEA.
  * User: David
@@ -8,4 +10,7 @@ package com.compscidave.swishassert;
  * To change this template use File | Settings | File Templates.
  */
 public class Is {
+    public EqualityConstraint equalTo(Object other) {
+        return new EqualityConstraint(other);
+    }
 }
