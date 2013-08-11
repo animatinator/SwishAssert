@@ -13,8 +13,9 @@ public abstract class Constraint<T> {
     }
     protected abstract boolean satisfiedBy(T object);
 
-    public void attachModifier(BooleanModifier modifier) {
+    public Constraint withModifier(BooleanModifier modifier) {
         this.modifier = modifier;
+        return this;
     }
 
     // Generate a failure message specific to the constraint, eg:

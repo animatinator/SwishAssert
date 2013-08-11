@@ -9,6 +9,6 @@ public class NullityConstraint extends Constraint {
 
     @Override
     public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("Not implemented");
+        throw new UnsupportedOperationException("not implemented");
     }
 }

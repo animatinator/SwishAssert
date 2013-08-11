@@ -9,18 +9,10 @@ import com.compscidave.swishassert.constraints.comparison.BetweenConstraint;
 import com.compscidave.swishassert.constraints.comparison.GreaterThanConstraint;
 import com.compscidave.swishassert.constraints.comparison.LessThanConstraint;
 import com.compscidave.swishassert.constraints.numeric.NumericEqualityConstraint;
-import com.compscidave.swishassert.modifiers.BooleanModifier;
+import com.compscidave.swishassert.modifiers.InvertModifier;
 
 
 public class Is {
-    private BooleanModifier modifier;
-
-    // Adding the ability to create instances with the hope that Is.Not can return a new Is with a InvertModifier attached
-    public Is(BooleanModifier modifier) {
-        this.modifier = modifier;
-    }
-
-
     public static EqualityConstraint equalTo(Object other) {
         return new EqualityConstraint(other);
     }
@@ -55,5 +47,10 @@ public class Is {
 
     public static NaNConstraint NaN() {
         return new NaNConstraint();
+    }
+
+
+    public static ModifiedIs not() {
+        return new ModifiedIs(new InvertModifier());
     }
 }

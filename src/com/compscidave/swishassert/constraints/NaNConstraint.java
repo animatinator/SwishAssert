@@ -5,11 +5,11 @@ public class NaNConstraint extends Constraint<Number> {
     @Override
     protected boolean satisfiedBy(Number object) {
         // TODO: Implement NaNConstraint.satisfiedBy
-        throw new UnsupportedOperationException("Not implemented");
+        throw new UnsupportedOperationException("not implemented");
     }
 
     @Override
     public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("Not implemented");
+        throw new UnsupportedOperationException("not implemented");
     }
 }

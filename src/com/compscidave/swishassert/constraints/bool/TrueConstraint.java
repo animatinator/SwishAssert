@@ -9,6 +9,6 @@ public class TrueConstraint extends BooleanConstraint {
 
     @Override
     public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("Not implemented");
+        throw new UnsupportedOperationException("not implemented");
     }
 }
