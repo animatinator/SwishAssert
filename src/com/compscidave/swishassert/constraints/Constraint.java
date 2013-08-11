@@ -1,10 +1,21 @@
 package com.compscidave.swishassert.constraints;
 
 
+import com.compscidave.swishassert.BooleanModifier;
+import com.compscidave.swishassert.NullModifier;
+
 public abstract class Constraint<T> {
     protected String failureMessage;
+    private BooleanModifier modifier = new NullModifier();
 
-    public abstract boolean satisfiedBy(T object);
+    public boolean isSatisfiedBy(T object) {
+        return modifier.modify(satisfiedBy(object));
+    }
+    protected abstract boolean satisfiedBy(T object);
+
+    public void attachModifier(BooleanModifier modifier) {
+        this.modifier = modifier;
+    }
 
     // Generate a failure message specific to the constraint, eg:
     // "Value should not have been equal to 'blah', but was"

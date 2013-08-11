@@ -9,7 +9,7 @@ public class EqualityConstraint extends Constraint<Object> {
     }
 
     @Override
-    public boolean satisfiedBy(Object object) {
+    protected boolean satisfiedBy(Object object) {
         return otherObject.equals(object);
     }
 

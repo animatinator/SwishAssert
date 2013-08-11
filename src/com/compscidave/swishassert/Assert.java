@@ -18,7 +18,7 @@ public class Assert {
 
     public static void That(Object object, Constraint ... constraints) {
         for (Constraint constraint : constraints) {
-            if (!constraint.satisfiedBy(object)) {
+            if (!constraint.isSatisfiedBy(object)) {
                 throw new AssertionError(constraint.generateFailureMessage(""));
             }
         }

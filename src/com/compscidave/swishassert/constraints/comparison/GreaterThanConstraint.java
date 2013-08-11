@@ -7,7 +7,7 @@ public class GreaterThanConstraint extends ComparisonConstraint {
     }
 
     @Override
-    public boolean satisfiedBy(Comparable object) {
+    protected boolean satisfiedBy(Comparable object) {
         return (object.compareTo(comparedObject) > 0);
     }
 

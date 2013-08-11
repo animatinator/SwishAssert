@@ -14,7 +14,7 @@ public class BetweenConstraint extends Constraint<Comparable> {
 
 
     @Override
-    public boolean satisfiedBy(Comparable object) {
+    protected boolean satisfiedBy(Comparable object) {
         return (object.compareTo(lowerBound) > 0 && object.compareTo(upperBound) < 0);
     }
 
