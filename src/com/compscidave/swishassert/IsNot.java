@@ -30,18 +30,18 @@ public class IsNot {
     }
 
     public Constraint True() {
-        return new FalseConstraint();
+        return new InvertModifier(Is.True());
     }
 
     public Constraint False() {
-        return new TrueConstraint();
+        return new InvertModifier(Is.False());
     }
 
     public Constraint Null() {
-        return new InvertModifier(new NullityConstraint());
+        return new InvertModifier(Is.Null());
     }
 
     public Constraint NaN() {
-        return new InvertModifier(new NaNConstraint());
+        return new InvertModifier(Is.NaN());
     }
 }
