@@ -50,7 +50,7 @@ public class Is {
     }
 
 
-    public static void not() {
-        throw new UnsupportedOperationException("not implemented");
+    public static IsNot not() {
+        return new IsNot();
     }
 }

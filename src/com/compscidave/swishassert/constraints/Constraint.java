@@ -14,4 +14,8 @@ public abstract class Constraint<T> {
         failureMessage = message;
         return this;
     }
+
+
+    // TODO: public AndModifier and(Constraint other)
+    // TODO: public OrModifier or(Constraint other)
 }

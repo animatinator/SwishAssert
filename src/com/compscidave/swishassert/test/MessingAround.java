@@ -64,11 +64,11 @@ public class MessingAround {
 
     @Test
     public void notEqualTo() {
-        //Assert.That(3, Is.not().equalTo(4));
+        Assert.That(3, Is.not().equalTo(4));
     }
 
     @Test
     public void notLessThan() {
-        //Assert.That(102, Is.not().lessThan(102));
+        Assert.That(102, Is.not().lessThan(102));
     }
 }
