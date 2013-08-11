@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8197bb0e-538d-4502-a0fd-aef2aadf2511" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/Contains.java" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\Code\Java\SwishAssert\src\com\compscidave\swishassert\test\Contains.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericEqualityConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericConstraint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SwishAssert.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MessingAround.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376168711788" ignored="false" />
-    <file path="/Dummy.txt" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376169712409" ignored="false" />
-    <file path="/Is.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376168466967" ignored="false" />
+    <file path="/Dummy.txt" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376222163644" ignored="false" />
+    <file path="/Is.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376222533646" ignored="false" />
     <file path="/EqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376169634369" ignored="false" />
-    <file path="/fragment.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376222080451" ignored="false" />
+    <file path="/fragment.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376222248694" ignored="false" />
     <file path="/Constraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376169548567" ignored="false" />
-    <file path="/NumericConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376222013159" ignored="false" />
+    <file path="/NumericConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376222437709" ignored="false" />
     <file path="/Assert.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376169488461" ignored="false" />
+    <file path="/NumericEqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376222794531" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <file leaf-file-name="Is.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+            <state line="2" column="51" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +104,7 @@
       <file leaf-file-name="MessingAround.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+            <state line="30" column="66" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +121,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumericConstraint.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NumericConstraint.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericConstraint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="256" selection-end="256" vertical-scroll-proportion="0.22118959">
+            <state line="4" column="28" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumericEqualityConstraint.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericEqualityConstraint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="5" selection-start="320" selection-end="320" vertical-scroll-proportion="0.5649547">
               <folding />
             </state>
           </provider>
@@ -132,7 +142,7 @@
       <file leaf-file-name="Constraint.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="11" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+            <state line="3" column="17" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,7 +151,7 @@
       <file leaf-file-name="Assert.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Assert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="50" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+            <state line="23" column="81" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,12 +181,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/test/Contains.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/Assert.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/EqualityConstraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericConstraint.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericEqualityConstraint.java" />
       </list>
     </option>
   </component>
@@ -297,6 +308,9 @@
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.compscidave.swishassert.constraints" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="com.compscidave.swishassert.constraints" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -475,12 +489,16 @@
       <created>1376169715765</created>
       <updated>1376169715765</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Use Number base class for numeric constraints and move Contains out of test (was acidental)">
+      <created>1376222167624</created>
+      <updated>1376222167624</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -496,8 +514,8 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="top" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67021275" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67021275" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -546,7 +564,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement generateFailureMessage method in subclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use Number base class for numeric constraints and move Contains out of test (was acidental)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -566,6 +584,7 @@
     <MESSAGE value="Remove IntelliJ comment" />
     <MESSAGE value="Rename satisfiedByObject to satisfiedBy, and add unimplemented generateFailureMessage method to Constraint" />
     <MESSAGE value="Implement generateFailureMessage method in subclasses" />
+    <MESSAGE value="Use Number base class for numeric constraints and move Contains out of test (was acidental)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -582,39 +601,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Contains.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="50" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -628,7 +617,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="256" selection-end="256" vertical-scroll-proportion="0.22118959">
+        <state line="4" column="28" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="66" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="81" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NumericEqualityConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="320" selection-end="320" vertical-scroll-proportion="0.5649547">
           <folding />
         </state>
       </provider>
