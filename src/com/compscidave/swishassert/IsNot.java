@@ -2,10 +2,6 @@ package com.compscidave.swishassert;
 
 
 import com.compscidave.swishassert.constraints.Constraint;
-import com.compscidave.swishassert.constraints.NaNConstraint;
-import com.compscidave.swishassert.constraints.NullityConstraint;
-import com.compscidave.swishassert.constraints.bool.FalseConstraint;
-import com.compscidave.swishassert.constraints.bool.TrueConstraint;
 import com.compscidave.swishassert.modifiers.InvertModifier;
 
 public class IsNot {

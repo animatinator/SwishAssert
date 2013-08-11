@@ -9,7 +9,6 @@ import com.compscidave.swishassert.constraints.comparison.BetweenConstraint;
 import com.compscidave.swishassert.constraints.comparison.GreaterThanConstraint;
 import com.compscidave.swishassert.constraints.comparison.LessThanConstraint;
 import com.compscidave.swishassert.constraints.numeric.NumericEqualityConstraint;
-import com.compscidave.swishassert.modifiers.InvertModifier;
 
 
 public class Is {

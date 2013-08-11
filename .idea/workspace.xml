@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8197bb0e-538d-4502-a0fd-aef2aadf2511" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SwishAssert.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MessingAround.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254111930" ignored="false" />
-    <file path="/Dummy.txt" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376255576604" ignored="false" />
+    <file path="/Dummy.txt" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376256193214" ignored="false" />
     <file path="/Is.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376255207860" ignored="false" />
     <file path="/EqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254760033" ignored="false" />
     <file path="/fragment.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376251920936" ignored="false" />
@@ -97,10 +98,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Constraint.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Constraint.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="51" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+            <state line="19" column="51" selection-start="607" selection-end="607" vertical-scroll-proportion="0.6003717">
               <folding />
             </state>
           </provider>
@@ -109,21 +110,17 @@
       <file leaf-file-name="Is.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="10" column="80" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsNot.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IsNot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="46" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.46282527">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="4" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,9 +174,9 @@
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/FalseConstraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/TolerantNumericEqualityConstraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java" />
       </list>
     </option>
@@ -621,7 +618,11 @@
       <created>1376255596276</created>
       <updated>1376255596276</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="More consistency - use Is methods in all IsNot wrapper methods">
+      <created>1376256207081</created>
+      <updated>1376256207081</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -692,7 +693,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reimplement Is.not().whatever() with IsNot class (seems the only reasonable way of doing it at the moment, duplicative though it may be)" />
+    <option name="LAST_COMMIT_MESSAGE" value="More consistency - use Is methods in all IsNot wrapper methods" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -727,6 +728,7 @@
     <MESSAGE value="Add ModifiedIs which allows access to Is methods but with a boolean modifier attached" />
     <MESSAGE value="Upon reconsideration, attaching boolean modifiers is a very bad idea. Instead, modification is done by constraints - for instance, InvertModifier is a constraint which contains the constraint to be inverted. Could use this to do similar things for or() and the like." />
     <MESSAGE value="Reimplement Is.not().whatever() with IsNot class (seems the only reasonable way of doing it at the moment, duplicative though it may be)" />
+    <MESSAGE value="More consistency - use Is methods in all IsNot wrapper methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -813,16 +815,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java">
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+        <state line="5" column="39" selection-start="148" selection-end="148" vertical-scroll-proportion="0.15799257">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="148" selection-end="148" vertical-scroll-proportion="0.15799257">
+        <state line="10" column="80" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -836,21 +845,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java">
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="46" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.46282527">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="19" column="51" selection-start="607" selection-end="607" vertical-scroll-proportion="0.6003717">
+          <folding />
         </state>
       </provider>
     </entry>
