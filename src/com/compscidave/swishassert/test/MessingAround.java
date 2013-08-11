@@ -53,6 +53,11 @@ public class MessingAround {
     }
 
     @Test
+    public void greaterThanAssertion() {
+        Assert.That(10, Is.greaterThan(3));
+    }
+
+    @Test
     public void betweenAssertion() {
         Assert.That(3, Is.between(1, 5));
     }
