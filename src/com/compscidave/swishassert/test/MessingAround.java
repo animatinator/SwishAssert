@@ -22,12 +22,12 @@ public class MessingAround {
         Assert.That("Hello world", Is.equalTo("Hello world"), "Wasn't equal :(");
     }
 
-    @Test
+    @Test(expected = AssertionError.class)
     public void tryASimpleFalseEqualityAssertion() {
         Assert.That("Hello world", Is.equalTo("Hello world!"), "Wasn't equal :(");
     }
 
-    @Test
+    @Test(expected = AssertionError.class)
     public void tryASimpleFalseEqualityAssertionWithoutMessage() {
         Assert.That("Hello world", Is.equalTo("Hello worlds"));
     }

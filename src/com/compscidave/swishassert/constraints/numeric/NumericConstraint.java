@@ -1,5 +1,7 @@
-package com.compscidave.swishassert.constraints;
+package com.compscidave.swishassert.constraints.numeric;
 
+
+import com.compscidave.swishassert.constraints.Constraint;
 
 public abstract class NumericConstraint implements Constraint<Number> {
     protected Number number;

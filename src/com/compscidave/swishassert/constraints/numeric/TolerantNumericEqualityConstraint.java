@@ -1,4 +1,4 @@
-package com.compscidave.swishassert.constraints;
+package com.compscidave.swishassert.constraints.numeric;
 
 
 public class TolerantNumericEqualityConstraint extends NumericConstraint {
