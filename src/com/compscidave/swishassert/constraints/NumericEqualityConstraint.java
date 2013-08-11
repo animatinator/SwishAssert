@@ -7,7 +7,11 @@ public class NumericEqualityConstraint extends NumericConstraint {
     }
 
     @Override
-    public boolean satisfiedBy(Number object) {
-        throw new UnsupportedOperationException();
+    public boolean satisfiedBy(Number otherNumber) {
+        return number.equals(otherNumber);
+    }
+
+    public TolerantNumericEqualityConstraint withTolerance(Number tolerance) {
+        return new TolerantNumericEqualityConstraint(number, tolerance);
     }
 }

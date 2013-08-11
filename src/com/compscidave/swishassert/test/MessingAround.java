@@ -31,4 +31,19 @@ public class MessingAround {
     public void tryASimpleFalseEqualityAssertionWithoutMessage() {
         Assert.That("Hello world", Is.equalTo("Hello worlds"));
     }
+
+    @Test
+    public void numericComparisonAssertion() {
+        Assert.That(3, Is.equalTo(3));
+    }
+
+    @Test
+    public void numericComparisonAssertionWithTolerance() {
+        Assert.That(391, Is.equalTo(390).withTolerance(5));
+    }
+
+    @Test
+    public void doubleComparisonAssertion() {
+        Assert.That(3.0d, Is.equalTo(3.1d).withTolerance(0.2d));
+    }
 }

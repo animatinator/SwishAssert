@@ -7,9 +7,10 @@ import com.compscidave.swishassert.constraints.NumericEqualityConstraint;
 
 public class Is {
     public static Constraint equalTo(Object other) {
-        if (Number.class.isAssignableFrom(other.getClass())) {
-            return new NumericEqualityConstraint((Number)other);
-        }
         return new EqualityConstraint(other);
+    }
+
+    public static NumericEqualityConstraint equalTo(Number other) {
+        return new NumericEqualityConstraint(other);
     }
 }
