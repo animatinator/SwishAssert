@@ -1,12 +1,12 @@
 package com.compscidave.swishassert.constraints;
 
 
-import com.compscidave.swishassert.BooleanModifier;
-import com.compscidave.swishassert.NullModifier;
+import com.compscidave.swishassert.modifiers.BooleanModifier;
+import com.compscidave.swishassert.modifiers.NoModifier;
 
 public abstract class Constraint<T> {
     protected String failureMessage;
-    private BooleanModifier modifier = new NullModifier();
+    private BooleanModifier modifier = new NoModifier();
 
     public boolean isSatisfiedBy(T object) {
         return modifier.modify(satisfiedBy(object));

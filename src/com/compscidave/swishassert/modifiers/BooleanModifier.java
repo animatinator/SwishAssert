@@ -1,4 +1,4 @@
-package com.compscidave.swishassert;
+package com.compscidave.swishassert.modifiers;
 
 
 public interface BooleanModifier {
