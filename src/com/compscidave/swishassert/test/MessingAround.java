@@ -46,4 +46,14 @@ public class MessingAround {
     public void doubleComparisonAssertion() {
         Assert.That(3.0d, Is.equalTo(3.1d).withTolerance(0.2d));
     }
+
+    @Test
+    public void lessThanAssertion() {
+        Assert.That(3, Is.lessThan(4));
+    }
+
+    @Test
+    public void betweenAssertion() {
+        Assert.That(3, Is.between(1, 5));
+    }
 }
