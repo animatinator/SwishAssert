@@ -1,7 +1,7 @@
 package com.compscidave.swishassert.constraints;
 
 
-public class EqualityConstraint implements Constraint<Object> {
+public class EqualityConstraint extends Constraint<Object> {
     private Object otherObject;
 
     public EqualityConstraint(Object other) {

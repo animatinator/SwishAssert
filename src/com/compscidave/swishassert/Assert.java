@@ -16,13 +16,11 @@ public class Assert {
         if (!expression) throw new AssertionError(message);
     }
 
-    public static void That(Object object, Constraint constraint) {
-        That(object, constraint, "");
-    }
-
-    public static void That(Object object, Constraint constraint, String message) {
-        if (!constraint.satisfiedBy(object)) {
-            throw new AssertionError(constraint.generateFailureMessage(message));
+    public static void That(Object object, Constraint ... constraints) {
+        for (Constraint constraint : constraints) {
+            if (!constraint.satisfiedBy(object)) {
+                throw new AssertionError(constraint.generateFailureMessage(""));
+            }
         }
     }
 
