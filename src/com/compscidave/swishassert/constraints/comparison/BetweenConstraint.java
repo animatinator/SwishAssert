@@ -12,9 +12,8 @@ public class BetweenConstraint extends Constraint<Comparable> {
         this.upperBound = upperBound;
     }
 
-
     @Override
-    protected boolean satisfiedBy(Comparable object) {
+    public boolean isSatisfiedBy(Comparable object) {
         return (object.compareTo(lowerBound) > 0 && object.compareTo(upperBound) < 0);
     }
 

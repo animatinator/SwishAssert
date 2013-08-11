@@ -50,7 +50,7 @@ public class Is {
     }
 
 
-    public static ModifiedIs not() {
-        return new ModifiedIs(new InvertModifier());
+    public static void not() {
+        throw new UnsupportedOperationException("not implemented");
     }
 }

@@ -3,7 +3,7 @@ package com.compscidave.swishassert.constraints;
 
 public class NullityConstraint extends Constraint {
     @Override
-    protected boolean satisfiedBy(Object object) {
+    public boolean isSatisfiedBy(Object object) {
         return (object == null);
     }
 

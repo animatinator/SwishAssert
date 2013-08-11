@@ -1,9 +1,18 @@
 package com.compscidave.swishassert.modifiers;
 
 
-public class InvertModifier implements BooleanModifier {
+import com.compscidave.swishassert.constraints.Constraint;
+
+public class InvertModifier extends Constraint {
+    private Constraint constraintToModify;
+
     @Override
-    public boolean modify(boolean input) {
-        return !input;
+    public boolean isSatisfiedBy(Object object) {
+        return !constraintToModify.isSatisfiedBy(object);
+    }
+
+    @Override
+    public String generateFailureMessage(String userMessage) {
+        throw new UnsupportedOperationException("not implemented");
     }
 }

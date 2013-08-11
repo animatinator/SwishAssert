@@ -3,7 +3,7 @@ package com.compscidave.swishassert.constraints;
 
 public class NaNConstraint extends Constraint<Number> {
     @Override
-    protected boolean satisfiedBy(Number object) {
+    public boolean isSatisfiedBy(Number object) {
         // TODO: Implement NaNConstraint.satisfiedBy
         throw new UnsupportedOperationException("not implemented");
     }

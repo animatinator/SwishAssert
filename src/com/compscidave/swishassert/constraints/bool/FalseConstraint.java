@@ -3,7 +3,7 @@ package com.compscidave.swishassert.constraints.bool;
 
 public class FalseConstraint extends BooleanConstraint {
     @Override
-    protected boolean satisfiedBy(Boolean object) {
+    public boolean isSatisfiedBy(Boolean object) {
         return !object;
     }
 

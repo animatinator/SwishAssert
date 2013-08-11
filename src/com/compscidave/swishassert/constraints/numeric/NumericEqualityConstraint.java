@@ -7,7 +7,7 @@ public class NumericEqualityConstraint extends NumericConstraint {
     }
 
     @Override
-    protected boolean satisfiedBy(Number otherNumber) {
+    public boolean isSatisfiedBy(Number otherNumber) {
         return number.equals(otherNumber);
     }
 

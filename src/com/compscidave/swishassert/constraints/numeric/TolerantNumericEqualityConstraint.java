@@ -10,7 +10,7 @@ public class TolerantNumericEqualityConstraint extends NumericConstraint {
     }
 
     @Override
-    protected boolean satisfiedBy(Number otherNumber) {
+    public boolean isSatisfiedBy(Number otherNumber) {
         return (Math.abs(otherNumber.doubleValue() - number.doubleValue()) < tolerance.doubleValue());
     }
 }
