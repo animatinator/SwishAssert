@@ -1,6 +1,9 @@
 package com.compscidave.swishassert.constraints;
 
 
+import com.compscidave.swishassert.modifiers.AndModifier;
+import com.compscidave.swishassert.modifiers.OrModifier;
+
 public abstract class Constraint<T> {
     protected String failureMessage;
 
@@ -16,6 +19,11 @@ public abstract class Constraint<T> {
     }
 
 
-    // TODO: public AndModifier and(Constraint other)
-    // TODO: public OrModifier or(Constraint other)
+    public AndModifier and(Constraint other) {
+        return new AndModifier(this, other);
+    }
+
+    public OrModifier or(Constraint other) {
+        return new OrModifier(this, other);
+    }
 }

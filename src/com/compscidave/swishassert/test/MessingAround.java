@@ -71,4 +71,14 @@ public class MessingAround {
     public void notLessThan() {
         Assert.That(102, Is.not().lessThan(102));
     }
+
+    @Test
+    public void notThreeOrFour() {
+        Assert.That(5, Is.not().equalTo(3).and(Is.not().equalTo(4)));
+    }
+
+    @Test
+    public void lessThanOrGreaterThanFour() {
+        Assert.That(3, Is.lessThan(4).or(Is.lessThan(4)));
+    }
 }
