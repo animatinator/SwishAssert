@@ -12,7 +12,7 @@ public class GreaterThanConstraint extends ComparisonConstraint {
     }
 
     @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("not implemented");
+    public String generateFailureMessage() {
+        return String.format("greater than '%s'", comparedObject);
     }
 }

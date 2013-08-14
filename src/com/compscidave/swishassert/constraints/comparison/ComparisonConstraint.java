@@ -9,9 +9,4 @@ public abstract class ComparisonConstraint extends Constraint<Comparable> {
     public ComparisonConstraint(Comparable other) {
         comparedObject = other;
     }
-
-    @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("not implemented");
-    }
 }

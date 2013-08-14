@@ -22,12 +22,12 @@ public class MessingAround {
         Assert.That("Hello world", Is.equalTo("Hello world").withFailureMessage("Wasn't equal :("));
     }
 
-    @Test(expected = AssertionError.class)
+    @Test//(expected = AssertionError.class)
     public void tryASimpleFalseEqualityAssertion() {
         Assert.That("Hello world", Is.equalTo("Hello world!").withFailureMessage("Wasn't equal :("));
     }
 
-    @Test(expected = AssertionError.class)
+    @Test//(expected = AssertionError.class)
     public void tryASimpleFalseEqualityAssertionWithoutMessage() {
         Assert.That("Hello world", Is.equalTo("Hello worlds"));
     }
@@ -80,5 +80,10 @@ public class MessingAround {
     @Test
     public void lessThanOrGreaterThanFour() {
         Assert.That(3, Is.lessThan(4).or(Is.lessThan(4)));
+    }
+
+    @Test
+    public void giveUsACoolErrorMessage() {
+        Assert.That(3, Is.lessThan(4).and(Is.between(1, 2).or(Is.greaterThan(10))));
     }
 }

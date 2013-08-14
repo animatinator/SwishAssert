@@ -14,7 +14,7 @@ public class EqualityConstraint extends Constraint<Object> {
     }
 
     @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException();
+    public String generateFailureMessage() {
+        return String.format("equal to '%s'", otherObject);
     }
 }

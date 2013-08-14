@@ -18,7 +18,7 @@ public class BetweenConstraint extends Constraint<Comparable> {
     }
 
     @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("not implemented");
+    public String generateFailureMessage() {
+        return String.format("between '%s' and '%s'", lowerBound, upperBound);
     }
 }

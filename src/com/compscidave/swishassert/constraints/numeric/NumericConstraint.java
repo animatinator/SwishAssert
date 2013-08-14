@@ -9,9 +9,4 @@ public abstract class NumericConstraint extends Constraint<Number> {
     public NumericConstraint(Number number) {
         this.number = number;
     }
-
-    @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException();
-    }
 }

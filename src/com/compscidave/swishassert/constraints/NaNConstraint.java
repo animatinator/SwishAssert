@@ -9,7 +9,7 @@ public class NaNConstraint extends Constraint<Number> {
     }
 
     @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("not implemented");
+    public String generateFailureMessage() {
+        return "NaN";
     }
 }

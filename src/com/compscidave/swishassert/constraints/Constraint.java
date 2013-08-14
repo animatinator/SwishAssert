@@ -8,14 +8,20 @@ public abstract class Constraint<T> {
     protected String failureMessage;
 
     public abstract boolean isSatisfiedBy(T object);
-
-    // Generate a failure message specific to the constraint, eg:
-    // "Value should not have been equal to 'blah', but was"
-    public abstract String generateFailureMessage(String userMessage);
+    public abstract String generateFailureMessage();
 
     public Constraint withFailureMessage(String message) {
         failureMessage = message;
         return this;
+    }
+
+    public String getFailureMessage(Object actual) {
+        return String.format("%sExpected %s, but got '%s'", formatCustomFailureMessage(), generateFailureMessage(), actual);
+    }
+
+    private String formatCustomFailureMessage() {
+        if (failureMessage == null) return "";
+        return String.format("%s\n\n", failureMessage);
     }
 
 

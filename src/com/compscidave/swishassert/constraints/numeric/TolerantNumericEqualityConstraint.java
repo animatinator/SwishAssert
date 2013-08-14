@@ -13,4 +13,9 @@ public class TolerantNumericEqualityConstraint extends NumericConstraint {
     public boolean isSatisfiedBy(Number otherNumber) {
         return (Math.abs(otherNumber.doubleValue() - number.doubleValue()) < tolerance.doubleValue());
     }
+
+    @Override
+    public String generateFailureMessage() {
+        return String.format("equal to '%s' within a tolerance of '%s'", number, tolerance);
+    }
 }

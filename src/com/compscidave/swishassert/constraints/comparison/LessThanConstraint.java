@@ -12,7 +12,7 @@ public class LessThanConstraint extends ComparisonConstraint {
     }
 
     @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("not implemented");
+    public String generateFailureMessage() {
+        return String.format("less than '%s'", comparedObject);
     }
 }

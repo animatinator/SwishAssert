@@ -19,7 +19,7 @@ public class AndModifier extends Constraint {
     }
 
     @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("not implemented");
+    public String generateFailureMessage() {
+        return String.format("%s and %s", firstConstraint.generateFailureMessage(), secondConstraint.generateFailureMessage());
     }
 }

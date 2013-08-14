@@ -11,6 +11,11 @@ public class NumericEqualityConstraint extends NumericConstraint {
         return number.equals(otherNumber);
     }
 
+    @Override
+    public String generateFailureMessage() {
+        return String.format("equal to '%s'", number);
+    }
+
     public TolerantNumericEqualityConstraint withTolerance(Number tolerance) {
         return new TolerantNumericEqualityConstraint(number, tolerance);
     }

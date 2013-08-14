@@ -8,7 +8,7 @@ public class FalseConstraint extends BooleanConstraint {
     }
 
     @Override
-    public String generateFailureMessage(String userMessage) {
-        throw new UnsupportedOperationException("not implemented");
+    public String generateFailureMessage() {
+        return "false";
     }
 }

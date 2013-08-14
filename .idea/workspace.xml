@@ -2,41 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8197bb0e-538d-4502-a0fd-aef2aadf2511" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/OrModifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/Assert.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/Assert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/BetweenConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/BetweenConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/ComparisonConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/ComparisonConstraint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/EqualityConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/EqualityConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/FalseConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/FalseConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/GreaterThanConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/GreaterThanConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/LessThanConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/LessThanConstraint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NaNConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NaNConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NullityConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NullityConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericEqualityConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericEqualityConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/OrModifier.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/OrModifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/TolerantNumericEqualityConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/TolerantNumericEqualityConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/TrueConstraint.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/TrueConstraint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SwishAssert.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MessingAround.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376418631856" ignored="false" />
-    <file path="/Dummy.txt" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376418424535" ignored="false" />
+    <file path="/MessingAround.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510624907" ignored="false" />
+    <file path="/Dummy.txt" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509742244" ignored="false" />
     <file path="/Is.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376255207860" ignored="false" />
-    <file path="/EqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254760033" ignored="false" />
-    <file path="/fragment.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376418496108" ignored="false" />
-    <file path="/Constraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376418485514" ignored="false" />
+    <file path="/EqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509998578" ignored="false" />
+    <file path="/fragment.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509753351" ignored="false" />
+    <file path="/Constraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510425570" ignored="false" />
     <file path="/NumericConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376222437709" ignored="false" />
-    <file path="/Assert.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376249986519" ignored="false" />
-    <file path="/NumericEqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254803703" ignored="false" />
-    <file path="/TolerantNumericEqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254862119" ignored="false" />
-    <file path="/LessThanConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254816166" ignored="false" />
+    <file path="/Assert.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509769776" ignored="false" />
+    <file path="/NumericEqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510058283" ignored="false" />
+    <file path="/TolerantNumericEqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510095231" ignored="false" />
+    <file path="/LessThanConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510130975" ignored="false" />
     <file path="/ComparisonConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376225233710" ignored="false" />
-    <file path="/BetweenConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254838307" ignored="false" />
-    <file path="/GreaterThanConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254826231" ignored="false" />
+    <file path="/BetweenConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510175505" ignored="false" />
+    <file path="/GreaterThanConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510153160" ignored="false" />
     <file path="/BooleanModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376249583076" ignored="false" />
     <file path="/NotModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376249617466" ignored="false" />
     <file path="/NullModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376249732652" ignored="false" />
     <file path="/BooleanConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376250749604" ignored="false" />
-    <file path="/TrueConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254846062" ignored="false" />
-    <file path="/FalseConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254852504" ignored="false" />
-    <file path="/NullityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254780967" ignored="false" />
-    <file path="/NaNConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254787768" ignored="false" />
+    <file path="/TrueConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510186867" ignored="false" />
+    <file path="/FalseConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376510192714" ignored="false" />
+    <file path="/NullityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509961792" ignored="false" />
+    <file path="/NaNConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509971761" ignored="false" />
     <file path="/ModifiedIs.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376254062672" ignored="false" />
-    <file path="/InvertModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376255297541" ignored="false" />
+    <file path="/InvertModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509950486" ignored="false" />
     <file path="/IsNot.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376256160185" ignored="false" />
-    <file path="/AndModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376414742076" ignored="false" />
-    <file path="/OrModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376418558179" ignored="false" />
+    <file path="/AndModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509904863" ignored="false" />
+    <file path="/OrModifier.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509821027" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,57 +116,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Constraint.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="27" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrModifier.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/OrModifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="67" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndModifier.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="67" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Is.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="80" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IsNot.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MessingAround.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="58" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.8457249">
+            <state line="76" column="69" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.39962825">
               <folding />
             </state>
           </provider>
@@ -184,21 +151,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NullityConstraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NaNConstraint.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericEqualityConstraint.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericConstraint.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/ComparisonConstraint.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/TrueConstraint.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/FalseConstraint.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/EqualityConstraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/LessThanConstraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/GreaterThanConstraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/BetweenConstraint.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/TrueConstraint.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/FalseConstraint.java" />
+        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericEqualityConstraint.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/TolerantNumericEqualityConstraint.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java" />
-        <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/OrModifier.java" />
         <option value="$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java" />
       </list>
     </option>
@@ -316,7 +283,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modifiers" />
+              <option name="myItemId" value="constraints" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,6 +306,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="constraints" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numeric" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,7 +351,7 @@
       <recent name="com.compscidave.swishassert" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MessingAround">
+  <component name="RunManager" selected="JUnit.MessingAround.notThreeOrFour">
     <configuration default="false" name="com.compscidave.swishassert.test in SwishAssert" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="SwishAssert" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -433,6 +404,50 @@
       <option name="MAIN_CLASS_NAME" value="com.compscidave.swishassert.test.MessingAround" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MessingAround.giveUsACoolErrorMessage" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="SwishAssert" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.compscidave.swishassert.test" />
+      <option name="MAIN_CLASS_NAME" value="com.compscidave.swishassert.test.MessingAround" />
+      <option name="METHOD_NAME" value="giveUsACoolErrorMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MessingAround.notThreeOrFour" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="SwishAssert" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.compscidave.swishassert.test" />
+      <option name="MAIN_CLASS_NAME" value="com.compscidave.swishassert.test.MessingAround" />
+      <option name="METHOD_NAME" value="notThreeOrFour" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -535,16 +550,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.com.compscidave.swishassert.test in SwishAssert" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MessingAround.notLessThan" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.MessingAround" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MessingAround.giveUsACoolErrorMessage" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MessingAround.notThreeOrFour" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MessingAround" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.com.compscidave.swishassert.test in SwishAssert" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MessingAround.notLessThan" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MessingAround.notThreeOrFour" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MessingAround.giveUsACoolErrorMessage" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MessingAround" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.com.compscidave.swishassert.test in SwishAssert" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MessingAround.notLessThan" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -672,7 +691,11 @@
       <created>1376256244708</created>
       <updated>1376256244708</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add and/or modifiers and Constraint.and(Constraint), Constraint.or(Constraint) syntax">
+      <created>1376418703871</created>
+      <updated>1376418703871</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -682,12 +705,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280142" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -696,7 +720,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
@@ -743,7 +766,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimise imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add and/or modifiers and Constraint.and(Constraint), Constraint.or(Constraint) syntax" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -780,6 +803,7 @@
     <MESSAGE value="Reimplement Is.not().whatever() with IsNot class (seems the only reasonable way of doing it at the moment, duplicative though it may be)" />
     <MESSAGE value="More consistency - use Is methods in all IsNot wrapper methods" />
     <MESSAGE value="Optimise imports" />
+    <MESSAGE value="Add and/or modifiers and Constraint.and(Constraint), Constraint.or(Constraint) syntax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -789,95 +813,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NullityConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="49" selection-start="166" selection-end="166" vertical-scroll-proportion="0.15799257">
+        <state line="11" column="22" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/NaNConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="49" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+        <state line="12" column="21" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericEqualityConstraint.java">
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2527881" />
+        <state line="10" column="5" selection-start="299" selection-end="299" vertical-scroll-proportion="0.31598514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/TrueConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/BooleanConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="196" selection-end="196" vertical-scroll-proportion="0.19729207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/FalseConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="291" selection-end="291" vertical-scroll-proportion="0.34758365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/EqualityConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/LessThanConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="240" selection-end="240" vertical-scroll-proportion="0.2843866">
+        <state line="15" column="44" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/GreaterThanConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="235" selection-end="235" vertical-scroll-proportion="0.2843866" />
+        <state line="15" column="47" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/ComparisonConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/comparison/BetweenConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" />
+        <state line="21" column="42" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/TrueConstraint.java">
+    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/NumericEqualityConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/bool/FalseConstraint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" />
+        <state line="15" column="43" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/numeric/TolerantNumericEqualityConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="102" selection-start="488" selection-end="488" vertical-scroll-proportion="0.42746615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="148" selection-end="148" vertical-scroll-proportion="0.15799257">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="80" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/IsNot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="67" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/OrModifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="67" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
+        <state line="18" column="70" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/Constraint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+        <state line="18" column="110" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -886,7 +922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="58" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.8457249">
+        <state line="76" column="69" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.39962825">
           <folding />
         </state>
       </provider>
