@@ -21,6 +21,22 @@ public class IsNot {
         return new InvertModifier(Is.greaterThan(other));
     }
 
+    public Constraint lessThanOrEqualTo(Comparable other) {
+        return new InvertModifier(Is.lessThanOrEqualTo(other));
+    }
+
+    public Constraint greaterThanOrEqualTo(Comparable other) {
+        return new InvertModifier(Is.greaterThanOrEqualTo(other));
+    }
+
+    public Constraint atMost(Comparable other) {
+        return new InvertModifier(Is.atMost(other));
+    }
+
+    public Constraint atLeast(Comparable other) {
+        return new InvertModifier(Is.atLeast(other));
+    }
+
     public Constraint between(Comparable lowerBound, Comparable upperBound) {
         return new InvertModifier(Is.between(lowerBound, upperBound));
     }
@@ -39,5 +55,9 @@ public class IsNot {
 
     public Constraint NaN() {
         return new InvertModifier(Is.NaN());
+    }
+
+    public Constraint sameAs(Object other) {
+        return new InvertModifier(Is.sameAs(other));
     }
 }
