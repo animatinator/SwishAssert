@@ -1,8 +1,6 @@
 package com.compscidave.swishassert;
 
-import com.compscidave.swishassert.constraints.EqualityConstraint;
-import com.compscidave.swishassert.constraints.NaNConstraint;
-import com.compscidave.swishassert.constraints.NullityConstraint;
+import com.compscidave.swishassert.constraints.*;
 import com.compscidave.swishassert.constraints.bool.FalseConstraint;
 import com.compscidave.swishassert.constraints.bool.TrueConstraint;
 import com.compscidave.swishassert.constraints.comparison.BetweenConstraint;
@@ -28,6 +26,22 @@ public class Is {
         return new GreaterThanConstraint(other);
     }
 
+    public static Constraint lessThanOrEqualTo(Comparable other) {
+        return Is.lessThan(other).or(Is.equalTo(other));
+    }
+
+    public static Constraint greaterThanOrEqualTo(Comparable other) {
+        return Is.greaterThan(other).or(Is.equalTo(other));
+    }
+
+    public static Constraint atMost(Comparable other) {
+        return Is.lessThanOrEqualTo(other);
+    }
+
+    public static Constraint atLeast(Comparable other) {
+        return Is.greaterThanOrEqualTo(other);
+    }
+
     public static BetweenConstraint between(Comparable lowerBound, Comparable upperBound) {
         return new BetweenConstraint(lowerBound, upperBound);
     }
@@ -46,6 +60,10 @@ public class Is {
 
     public static NaNConstraint NaN() {
         return new NaNConstraint();
+    }
+
+    public static ReferenceEqualConstraint sameAs(Object other) {
+        return new ReferenceEqualConstraint(other);
     }
 
 

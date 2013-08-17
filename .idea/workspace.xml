@@ -3,19 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8197bb0e-538d-4502-a0fd-aef2aadf2511" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/test/IsNotClassCompletenessTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/Modifier.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/constraints/ReferenceEqualConstraint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/AndModifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/InvertModifier.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/Is.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/test/MessingAround.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/OrModifier.java" afterPath="$PROJECT_DIR$/src/com/compscidave/swishassert/modifiers/OrModifier.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SwishAssert.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MessingAround.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376682290207" ignored="false" />
-    <file path="/Dummy.txt" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376781474544" ignored="false" />
+    <file path="/Dummy.txt" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376781963779" ignored="false" />
     <file path="/Is.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376781793266" ignored="false" />
     <file path="/EqualityConstraint.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509998578" ignored="false" />
     <file path="/fragment.java" changelist="8197bb0e-538d-4502-a0fd-aef2aadf2511" time="1376509753351" ignored="false" />
@@ -133,7 +128,7 @@
       <file leaf-file-name="IsNotClassCompletenessTests.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/test/IsNotClassCompletenessTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="42" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2947977">
+            <state line="9" column="42" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2959381">
               <folding />
             </state>
           </provider>
@@ -780,7 +775,11 @@
       <created>1376510773335</created>
       <updated>1376510773335</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add base class for modifiers">
+      <created>1376781959455</created>
+      <updated>1376781959455</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -795,6 +794,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32624114" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -804,7 +804,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32624114" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
@@ -851,7 +850,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement failure message generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add base class for modifiers" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -865,7 +864,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Added some basic skeleton constraints" />
     <MESSAGE value="Added Assert class" />
     <MESSAGE value="Added Contains class for list/string assertions" />
     <MESSAGE value="Remove IntelliJ comment" />
@@ -890,6 +888,7 @@
     <MESSAGE value="Optimise imports" />
     <MESSAGE value="Add and/or modifiers and Constraint.and(Constraint), Constraint.or(Constraint) syntax" />
     <MESSAGE value="Implement failure message generation" />
+    <MESSAGE value="Add base class for modifiers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1004,7 +1003,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/compscidave/swishassert/test/IsNotClassCompletenessTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2947977">
+        <state line="9" column="42" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2959381">
           <folding />
         </state>
       </provider>
