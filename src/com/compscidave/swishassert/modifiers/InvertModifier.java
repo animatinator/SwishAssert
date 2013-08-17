@@ -4,7 +4,7 @@ package com.compscidave.swishassert.modifiers;
 import com.compscidave.swishassert.constraints.Constraint;
 
 //TODO: Make a superclass for modifiers
-public class InvertModifier extends Constraint {
+public class InvertModifier extends Modifier {
     private Constraint constraintToModify;
 
     public InvertModifier(Constraint constraint) {

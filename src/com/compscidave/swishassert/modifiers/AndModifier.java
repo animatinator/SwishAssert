@@ -3,7 +3,7 @@ package com.compscidave.swishassert.modifiers;
 import com.compscidave.swishassert.constraints.Constraint;
 
 
-public class AndModifier extends Constraint {
+public class AndModifier extends Modifier {
     private Constraint firstConstraint;
     private Constraint secondConstraint;
 

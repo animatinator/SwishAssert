@@ -4,8 +4,21 @@ import com.compscidave.swishassert.Assert;
 import com.compscidave.swishassert.Is;
 import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 
 public class MessingAround {
+    @Test
+    public void standardEqualityTest() {
+        assertEquals("Not equal!", 3, 2);
+    }
+
+    @Test
+    public void standardExpressionTest() {
+        assertTrue(3 == 4);
+    }
+
     @Test
     public void testTest() {
         assertEqualThings("Test", "Test");
@@ -85,5 +98,10 @@ public class MessingAround {
     @Test
     public void giveUsACoolErrorMessage() {
         Assert.That(3, Is.lessThan(4).and(Is.between(1, 2).or(Is.greaterThan(10))));
+    }
+
+    @Test
+    public void failWithTolerance() {
+        Assert.That(3, Is.equalTo(10).withTolerance(2));
     }
 }
