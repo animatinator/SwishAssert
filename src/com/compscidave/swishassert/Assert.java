@@ -6,7 +6,7 @@ import com.compscidave.swishassert.constraints.Constraint;
 public class Assert {
 
     public static final String DEFAULT_FALSE_ASSERTION_MESSAGE = "Expression was false";
-    public static final String FORCED_FAILURE_MESSAGE = "Forced failure";
+    public static final String DEFAULT_FORCED_FAILURE_MESSAGE = "Forced failure";
 
     public static void That(boolean expression) {
         That(expression, DEFAULT_FALSE_ASSERTION_MESSAGE);
@@ -25,7 +25,7 @@ public class Assert {
     }
 
     public static void Fail() {
-        Fail(FORCED_FAILURE_MESSAGE);
+        Fail(DEFAULT_FORCED_FAILURE_MESSAGE);
     }
 
     public static void Fail(String message) {
