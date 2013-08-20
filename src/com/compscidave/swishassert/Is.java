@@ -7,6 +7,7 @@ import com.compscidave.swishassert.constraints.comparison.BetweenConstraint;
 import com.compscidave.swishassert.constraints.comparison.GreaterThanConstraint;
 import com.compscidave.swishassert.constraints.comparison.LessThanConstraint;
 import com.compscidave.swishassert.constraints.numeric.NumericEqualityConstraint;
+import com.compscidave.swishassert.constraints.type.AssignableFromConstraint;
 import com.compscidave.swishassert.constraints.type.InstanceOfConstraint;
 import com.compscidave.swishassert.constraints.type.TypeEqualityConstraint;
 
@@ -76,6 +77,10 @@ public class Is {
 
     public static InstanceOfConstraint instanceOf(Type type) {
         return new InstanceOfConstraint(type);
+    }
+
+    public static AssignableFromConstraint assignableFrom(Type type) {
+        return new AssignableFromConstraint(type);
     }
 
 
