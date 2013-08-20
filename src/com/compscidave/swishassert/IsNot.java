@@ -4,6 +4,8 @@ package com.compscidave.swishassert;
 import com.compscidave.swishassert.constraints.Constraint;
 import com.compscidave.swishassert.modifiers.InvertModifier;
 
+import java.lang.reflect.Type;
+
 public class IsNot {
     public Constraint equalTo(Object other) {
         return new InvertModifier(Is.equalTo(other));
@@ -59,5 +61,13 @@ public class IsNot {
 
     public Constraint sameAs(Object other) {
         return new InvertModifier(Is.sameAs(other));
+    }
+
+    public Constraint sameTypeAs(Object other) {
+        return new InvertModifier(Is.sameTypeAs(other));
+    }
+
+    public Constraint instanceOf(Type type) {
+        return new InvertModifier(Is.instanceOf(type));
     }
 }

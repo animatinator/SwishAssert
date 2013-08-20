@@ -7,6 +7,10 @@ import com.compscidave.swishassert.constraints.comparison.BetweenConstraint;
 import com.compscidave.swishassert.constraints.comparison.GreaterThanConstraint;
 import com.compscidave.swishassert.constraints.comparison.LessThanConstraint;
 import com.compscidave.swishassert.constraints.numeric.NumericEqualityConstraint;
+import com.compscidave.swishassert.constraints.type.InstanceOfConstraint;
+import com.compscidave.swishassert.constraints.type.TypeEqualityConstraint;
+
+import java.lang.reflect.Type;
 
 
 public class Is {
@@ -64,6 +68,14 @@ public class Is {
 
     public static ReferenceEqualConstraint sameAs(Object other) {
         return new ReferenceEqualConstraint(other);
+    }
+
+    public static TypeEqualityConstraint sameTypeAs(Object other) {
+        return new TypeEqualityConstraint(other.getClass());
+    }
+
+    public static InstanceOfConstraint instanceOf(Type type) {
+        return new InstanceOfConstraint(type);
     }
 
 
