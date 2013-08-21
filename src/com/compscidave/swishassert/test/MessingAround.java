@@ -1,24 +1,17 @@
 package com.compscidave.swishassert.test;
 
 import com.compscidave.swishassert.Assert;
+import com.compscidave.swishassert.Contains;
 import com.compscidave.swishassert.Is;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 
 public class MessingAround {
-    @Test
-    public void standardEqualityTest() {
-        assertEquals("Not equal!", 3, 2);
-    }
-
-    @Test
-    public void standardExpressionTest() {
-        assertTrue(3 == 4);
-    }
-
     @Test
     public void testTest() {
         assertEqualThings("Test", "Test");
@@ -35,12 +28,12 @@ public class MessingAround {
         Assert.That("Hello world", Is.equalTo("Hello world").withFailureMessage("Wasn't equal :("));
     }
 
-    @Test//(expected = AssertionError.class)
+    @Test(expected = AssertionError.class)
     public void tryASimpleFalseEqualityAssertion() {
         Assert.That("Hello world", Is.equalTo("Hello world!").withFailureMessage("Wasn't equal :("));
     }
 
-    @Test//(expected = AssertionError.class)
+    @Test(expected = AssertionError.class)
     public void tryASimpleFalseEqualityAssertionWithoutMessage() {
         Assert.That("Hello world", Is.equalTo("Hello worlds"));
     }
@@ -103,5 +96,23 @@ public class MessingAround {
     @Test
     public void failWithTolerance() {
         Assert.That(3, Is.equalTo(10).withTolerance(2));
+    }
+
+    @Test
+    public void containsAllOf() {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        Assert.That(list, Contains.allOf(1, 2, 3));
+    }
+
+    @Test
+    public void containsSomeOf() {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        Assert.That(list, Contains.someOf(1, 2, 3, 4));
     }
 }
