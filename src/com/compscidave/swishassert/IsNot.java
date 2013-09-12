@@ -70,4 +70,8 @@ public class IsNot {
     public Constraint instanceOf(Type type) {
         return new InvertModifier(Is.instanceOf(type));
     }
+
+    public Constraint empty() {
+        return new InvertModifier(Is.empty());
+    }
 }

@@ -3,7 +3,7 @@ package com.compscidave.swishassert;
 import com.compscidave.swishassert.constraints.*;
 import com.compscidave.swishassert.constraints.bool.FalseConstraint;
 import com.compscidave.swishassert.constraints.bool.TrueConstraint;
-import com.compscidave.swishassert.constraints.comparison.BetweenConstraint;
+import com.compscidave.swishassert.constraints.collections.CollectionEmptyConstraint;import com.compscidave.swishassert.constraints.comparison.BetweenConstraint;
 import com.compscidave.swishassert.constraints.comparison.GreaterThanConstraint;
 import com.compscidave.swishassert.constraints.comparison.LessThanConstraint;
 import com.compscidave.swishassert.constraints.numeric.NumericEqualityConstraint;
@@ -81,6 +81,11 @@ public class Is {
 
     public static AssignableFromConstraint assignableFrom(Type type) {
         return new AssignableFromConstraint(type);
+    }
+
+    public static CollectionEmptyConstraint empty() {
+        // TODO: Implement for strings too somehow?
+        return new CollectionEmptyConstraint();
     }
 
 

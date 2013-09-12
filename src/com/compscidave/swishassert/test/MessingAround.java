@@ -89,16 +89,6 @@ public class MessingAround {
     }
 
     @Test
-    public void giveUsACoolErrorMessage() {
-        Assert.That(3, Is.lessThan(4).and(Is.between(1, 2).or(Is.greaterThan(10))));
-    }
-
-    @Test
-    public void failWithTolerance() {
-        Assert.That(3, Is.equalTo(10).withTolerance(2));
-    }
-
-    @Test
     public void containsAllOf() {
         ArrayList<Integer> list = new ArrayList<Integer>();
         list.add(1);
@@ -114,5 +104,27 @@ public class MessingAround {
         list.add(2);
         list.add(3);
         Assert.That(list, Contains.someOf(1, 2, 3, 4));
+    }
+
+    @Test
+    public void containsNoneOf() {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        Assert.That(list, Contains.noneOf(4, 5));
+    }
+
+    @Test
+    public void containsItem() {
+        ArrayList<Integer> itemList = new ArrayList<Integer>();
+        itemList.add(1);
+        Assert.That(itemList, Contains.item(1));
+    }
+
+    @Test
+    public void emptyCollection() {
+        ArrayList<Integer> items = new ArrayList<Integer>();
+        Assert.That(items, Is.empty());
     }
 }
