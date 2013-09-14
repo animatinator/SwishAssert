@@ -30,7 +30,7 @@ public class TypeConstraintTests {
 
     @Test
     public void assignableFromPass() {
-        Assert.That((Number)3, Is.assignableFrom(Integer.class));
+        Assert.That(3, Is.assignableFrom(Integer.class));
     }
 
     @Test
