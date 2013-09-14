@@ -7,9 +7,6 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static junit.framework.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
 
 public class MessingAround {
     @Test
@@ -126,5 +123,35 @@ public class MessingAround {
     public void emptyCollection() {
         ArrayList<Integer> items = new ArrayList<Integer>();
         Assert.That(items, Is.empty());
+    }
+
+    @Test
+    public void emptyString() {
+        Assert.That("", Is.emptyString());
+    }
+
+    @Test
+    public void stringContains() {
+        String pattern = "blah";
+        Assert.That("blahblah", Is.stringContaining(pattern));
+        Assert.That("blahblah", Contains.subString(pattern));
+    }
+
+    @Test
+    public void stringMatches() {
+        String pattern = "[a-z]*";
+        Assert.That("blah", Is.stringMatching(pattern));
+    }
+
+    @Test
+    public void stringStartsWith() {
+        String pattern = "[a-z]+";
+        Assert.That("blah1234", Is.stringStartingWith(pattern));
+    }
+
+    @Test
+    public void stringEndsWith() {
+        String pattern = "[a-z]+";
+        Assert.That("1234blah", Is.stringEndingWith(pattern));
     }
 }

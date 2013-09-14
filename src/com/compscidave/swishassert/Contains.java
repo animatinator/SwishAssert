@@ -3,6 +3,7 @@ package com.compscidave.swishassert;
 
 import com.compscidave.swishassert.constraints.collections.ContainsAllOfConstraint;
 import com.compscidave.swishassert.constraints.collections.ContainsItemConstraint;import com.compscidave.swishassert.constraints.collections.ContainsSomeOfConstraint;
+import com.compscidave.swishassert.constraints.string.matching.StringContainsConstraint;
 import com.compscidave.swishassert.modifiers.InvertModifier;
 
 public class Contains {
@@ -20,5 +21,9 @@ public class Contains {
 
     public static ContainsItemConstraint item(Object item) {
         return new ContainsItemConstraint(item);
+    }
+
+    public static StringContainsConstraint subString(String string) {
+        return new StringContainsConstraint(string);
     }
 }

@@ -7,6 +7,11 @@ import com.compscidave.swishassert.constraints.collections.CollectionEmptyConstr
 import com.compscidave.swishassert.constraints.comparison.GreaterThanConstraint;
 import com.compscidave.swishassert.constraints.comparison.LessThanConstraint;
 import com.compscidave.swishassert.constraints.numeric.NumericEqualityConstraint;
+import com.compscidave.swishassert.constraints.string.EmptyStringConstraint;
+import com.compscidave.swishassert.constraints.string.matching.StringContainsConstraint;
+import com.compscidave.swishassert.constraints.string.matching.StringEndsWithConstraint;
+import com.compscidave.swishassert.constraints.string.matching.StringMatchingConstraint;
+import com.compscidave.swishassert.constraints.string.matching.StringStartsWithConstraint;
 import com.compscidave.swishassert.constraints.type.AssignableFromConstraint;
 import com.compscidave.swishassert.constraints.type.InstanceOfConstraint;
 import com.compscidave.swishassert.constraints.type.TypeEqualityConstraint;
@@ -84,10 +89,28 @@ public class Is {
     }
 
     public static CollectionEmptyConstraint empty() {
-        // TODO: Implement for strings too somehow?
         return new CollectionEmptyConstraint();
     }
 
+    public static EmptyStringConstraint emptyString() {
+        return new EmptyStringConstraint();
+    }
+
+    public static StringContainsConstraint stringContaining(String string) {
+        return new StringContainsConstraint(string);
+    }
+
+    public static StringMatchingConstraint stringMatching(String string) {
+        return new StringMatchingConstraint(string);
+    }
+
+    public static StringStartsWithConstraint stringStartingWith(String string) {
+        return new StringStartsWithConstraint(string);
+    }
+
+    public static StringEndsWithConstraint stringEndingWith(String string) {
+        return new StringEndsWithConstraint(string);
+    }
 
     public static IsNot not() {
         return new IsNot();
