@@ -71,7 +71,31 @@ public class IsNot {
         return new InvertModifier(Is.instanceOf(type));
     }
 
+    public Constraint assignableFrom(Type type) {
+        return new InvertModifier(Is.assignableFrom(type));
+    }
+
     public Constraint empty() {
         return new InvertModifier(Is.empty());
+    }
+
+    public Constraint emptyString() {
+        return new InvertModifier(Is.emptyString());
+    }
+
+    public Constraint stringContaining(String string) {
+        return new InvertModifier(Is.stringContaining(string));
+    }
+
+    public Constraint stringMatching(String string) {
+        return new InvertModifier(Is.stringMatching(string));
+    }
+
+    public Constraint stringStartingWith(String string) {
+        return new InvertModifier(Is.stringStartingWith(string));
+    }
+
+    public Constraint stringEndingWith(String string) {
+        return new InvertModifier(Is.stringEndingWith(string));
     }
 }
